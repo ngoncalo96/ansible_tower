@@ -1,4 +1,0 @@
-- name: Restart Apache
-  service:
-    name: apache2  # Use 'httpd' for Red Hat/CentOS
-    state: restarted
