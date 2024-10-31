@@ -1,5 +1,5 @@
 - name: Configure Nginx Web Server
-  hosts: web
+  hosts: all
   become: yes
   roles:
     - nginx
